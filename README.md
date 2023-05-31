@@ -1,5 +1,5 @@
 # PathTrainTimeSaver
-I build single page Path train application by Ionic 
+I build single page Path train application by Ionic in React. 
 
 Some ScreenShot of Application...
 
