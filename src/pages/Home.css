@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin: 40px;
+  }
+
+  .iontitle{
+    text-align: center;
+  }
+  
+
+.dropdown{
+    margin: 20px;
+}
+
+ion-content {
+        --background:url('https://images.squarespace-cdn.com/content/v1/62f5d1d3019d5a1b09a586fb/5cd08c29-29b7-45a8-932b-f3be8439da7c/western%2Bmaryland%2Bscenic%2Brailroad%2Blocomotive%2B1309%2Bat%2Bcumberland%2Bstation%2Bpotomac%2Bmaryland%2Bwest%2Bvirginia%2Bpennsylvania%2Btrain%2Brides.jpg?format=1500w') no-repeat center center ;
+  }
+  
+  ion-select,
+  ion-button {
+    margin-top: 35px;
+  }
+
+  ion-button{
+    --ion-color-primary:#5d42f5;
+  --color: white;
+
+  --border-radius: 15px;
+  --border-color: #000;
+  --border-style: solid;
+  --border-width: 2px;
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color: deeppink;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  }
+
+ 
+  ion-select,ion-select-option{
+    --ion-color-tertiary: #5d42f5;
+    --color : #5d42f5
+    width: 250px;
+    height: 65px;
+    --background :  var(--ion-color-tertiary)
+    
+  }
+
+
+
+  ion-select {
+    --placeholder-color: white;
+    --padding-start : 10px;
+}
+
+  /* Set text color of the entire app for iOS only */
+.ios {
+    --ion-text-color: white;
+    font-size: large;
+  }
+  
+  /* Set text color of the entire app for Material Design only */
+  .md {
+    /* --ion-text-color: #222; */
+  }
+
+
+  .header{
+    font-size: x-large;
+    padding: 10px;
+    background-color: #5d42f5;
+    --color : white;
+     --ion-text-color : white; 
+     text-align: center;
+     border-radius: 10px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 1px;
+  }
